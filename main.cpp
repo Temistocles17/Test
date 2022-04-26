@@ -4,7 +4,8 @@ int main(){
 	int a;
 	std::cin>>a;
 	for (int i=a;i<2*a;i++){
-		std::cout<<a<<std::endl;
+		std::cout<<i<<": "<<a<<std::endl;
+		
 	}
 	return 0;
 }
